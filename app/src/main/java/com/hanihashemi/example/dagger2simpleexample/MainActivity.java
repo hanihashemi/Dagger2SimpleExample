@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    VehicleComponent component = DaggerVehicleComponent.builder().build();
+    MyComponent component = DaggerMyComponent.builder().build();
     component.inject(this);
 
     ((TextView) findViewById(R.id.result)).setText(String.format("Speed: %s", vehicle.getSpeed()));

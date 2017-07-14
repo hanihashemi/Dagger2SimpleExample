@@ -9,7 +9,7 @@ import dagger.Component;
  */
 @Singleton
 @Component(modules = {MyModule.class})
-interface VehicleComponent {
+interface MyComponent {
   Vehicle provideVehicle();
 
   void inject(MainActivity main);
