@@ -9,7 +9,7 @@ import dagger.Provides;
  * Created by hani on 5/29/17.
  */
 @Module
-class VehicleModule {
+class MyModule {
 
   @Provides
   @Singleton

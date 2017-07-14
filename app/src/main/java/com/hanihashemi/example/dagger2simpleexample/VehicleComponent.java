@@ -8,7 +8,7 @@ import dagger.Component;
  * Created by hani on 5/29/17.
  */
 @Singleton
-@Component(modules = {VehicleModule.class})
+@Component(modules = {MyModule.class})
 interface VehicleComponent {
   Vehicle provideVehicle();
 
